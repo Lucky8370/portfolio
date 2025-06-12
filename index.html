@@ -1,172 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio Webside</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/24a8544784.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/24a8544784.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="header">
-        <div class="container">
-            <nav>
-                <img src="images/logo2.0.png" alt="img" class="logo">
-                <ul id="js-sideMenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark js-fa-xmark" onclick="closeMenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars js-fa-bars" onclick="openMenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Front-End webDeveloper</p>
-                <h1>Hii there, I'm <span>Latesh</span> <br> Parmar from India </h1>
-            </div>
+      <div class="container">
+        <nav>
+          <img src="images/logo2.0.png" alt="img" class="logo" />
+          <ul id="js-sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark js-fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars js-fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-End webDeveloper</p>
+          <h1>
+            Hii there, I'm <span>Latesh</span> <br />
+            Parmar from India
+          </h1>
         </div>
+      </div>
     </div>
 
     <!-- ------------about----------- -->
     <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="images/ChatGPT Image Jun 7, 2025, 04_03_10 PM.png" alt="img" class="">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
-                    <p class="intro">Hi, I’m Parmar Latesh — a self-taught and creative web developer currently  in my second year of a BCA degree at Silver Oak University. I’m passionate about turning ideas into clean, responsive, and visually appealing websites. My journey started with curiosity and a strong desire to build things on the web, which led me to learn HTML, CSS, and JavaScript on my own. I’ve worked on personal projects like an Amazon clone and several webpage replications to sharpen my front-end skills. Now, I’m looking for freelance opportunities where I can bring value through functional and attractive web solutions. Every project I take on is an opportunity to learn, grow, and help clients build their online presence with confidence.</p>
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>making ideas into reality</li>
-                            <li><span>Graphic Design</span><br>Photo&Video Editing</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>2023-2024 </span><br>traning of web development from Udan Institute for 6 months</li>
-                            <li><span>2024</span><br>internship at web department in  Silver Oak University for 2 months</li>
-                            <li><span>2024-2025</span><br>learning Photo&Video Editing from youtube</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span>2024-2026</span><br> currently Pursuing, Bachelor of Computer Applications (BCA) from Silver Oak University, Ahmedabad</li>
-                            <li><span>12th Standard</span><br>Passed with 67%</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/ChatGPT Image Jun 7, 2025, 04_03_10 PM.png"
+              alt="img"
+              class=""
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="intro">
+              Hi, I’m Parmar Latesh — a self-taught and creative web developer
+              currently in my second year of a BCA degree at Silver Oak
+              University. I’m passionate about turning ideas into clean,
+              responsive, and visually appealing websites. My journey started
+              with curiosity and a strong desire to build things on the web,
+              which led me to learn HTML, CSS, and JavaScript on my own. I’ve
+              worked on personal projects like an Amazon clone and several
+              webpage replications to sharpen my front-end skills. Now, I’m
+              looking for freelance opportunities where I can bring value
+              through functional and attractive web solutions. Every project I
+              take on is an opportunity to learn, grow, and help clients build
+              their online presence with confidence.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App Interfaces</li>
+                <li>
+                  <span>Web Development</span><br />making ideas into reality
+                </li>
+                <li><span>Graphic Design</span><br />Photo&Video Editing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023-2024 </span><br />traning of web development from
+                  Udan Institute for 6 months
+                </li>
+                <li>
+                  <span>2024</span><br />internship at web department in Silver
+                  Oak University for 2 months
+                </li>
+                <li>
+                  <span>2024-2025</span><br />learning Photo&Video Editing from
+                  youtube
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2024-2026</span><br />
+                  currently Pursuing, Bachelor of Computer Applications (BCA)
+                  from Silver Oak University, Ahmedabad
+                </li>
+                <li><span>12th Standard</span><br />Passed with 67%</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- -------------services------------ -->
     <div id="services">
-        <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Development</h2>
-                    <p>Modern, responsive, and user-friendly designs that make your website stand out and deliver a great user experience.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>UI/UX Design</h2>
-                    <p>I design intuitive and engaging user interfaces focused on smooth navigation, clean layouts, and a better user experience.</p>
-                    <a href="#">Learn More</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-photo-film"></i>
-                    <h2>Graphic Design</h2>
-                    <p>Visually striking designs that communicate your brand message with clarity and style — from logos to social media posts.</p>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Modern, responsive, and user-friendly designs that make your
+              website stand out and deliver a great user experience.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              I design intuitive and engaging user interfaces focused on smooth
+              navigation, clean layouts, and a better user experience.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-photo-film"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              Visually striking designs that communicate your brand message with
+              clarity and style — from logos to social media posts.
+            </p>
+            <a href="#" target="_blank">Learn More</a>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- -----------portfolio--------------- -->
-     <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
-            <div class="work-list">
-                <div class="work">
-                    <img src="images/wd_img.png" alt="img">
-                    <div class="layer">
-                        <h3>Modern Web Design</h3>
-                        <p>Clean, responsive, and creative websites tailored to your brand. Let’s bring your vision to life online.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/UI.UX_img.png" alt="img">
-                    <div class="layer">
-                        <h3>Intuitive UX, Clean UI</h3>
-                        <p>Crafting seamless digital experiences with user-first design and clean, modern interfaces that make every click count.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="images/gd_img.png" alt="img">
-                    <div class="layer">
-                        <h3>Multimedia Design</h3>
-                        <p>Editing photos, videos, and crafting visuals that bring ideas to life — from reels to logos, I design with impact.</p>
-                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
-                    </div>
-                </div>
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/wd_img.png" alt="img" />
+            <div class="layer">
+              <h3>Modern Web Design</h3>
+              <p>
+                Clean, responsive, and creative websites tailored to your brand.
+                Let’s bring your vision to life online.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
-            <a href="#" class="btn">See More</a>
+          </div>
+          <div class="work">
+            <img src="images/UI.UX_img.png" alt="img" />
+            <div class="layer">
+              <h3>Intuitive UX, Clean UI</h3>
+              <p>
+                Crafting seamless digital experiences with user-first design and
+                clean, modern interfaces that make every click count.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/gd_img.png" alt="img" />
+            <div class="layer">
+              <h3>Multimedia Design</h3>
+              <p>
+                Editing photos, videos, and crafting visuals that bring ideas to
+                life — from reels to logos, I design with impact.
+              </p>
+              <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
         </div>
-     </div>
+        <a href="#" class="btn" target="_blank">See More</a>
+      </div>
+    </div>
 
-     <!-- -------------contact--------------- -->
-      <div id="contact">
-        <div class="container">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p> <i class="fa-solid fa-paper-plane"></i> parmarlatesh186@gmail.com</p>
-                <div class="social-icons">
-                    <a href="#" class="fab fa-facebook"></a>
-                    <a href="#" class="fab fa-twitter"></a>
-                    <a href="#" class="fab fa-instagram"></a>
-                    <a href="#www.linkedin.com/in/latesh-parmar-50446b36b" class="fab fa-linkedin"></a>
-                </div>
-                <a href="" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Full Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
-                    <button type="submit" class="btn btn2">Submit</button>
-                </form>
-                <span id="msg"></span>
-            </div>
+    <!-- -------------contact--------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p>
+            <i class="fa-solid fa-paper-plane"></i> parmarlatesh186@gmail.com
+          </p>
+          <div class="social-icons">
+            <a href="" class="fab fa-facebook" target="_blank"></a>
+            <a href="" class="fab fa-twitter" target="_blank"></a>
+            <a href="" class="fab fa-instagram" target="_blank"></a>
+            <a
+              href="https://www.linkedin.com/in/latesh-parmar-dev-2006-/"
+              target="_blank"
+              class="fab fa-linkedin"
+            ></a>
+          </div>
+          <!-- <a href="" download class="btn btn2">Download CV</a> -->
         </div>
-        <div class="copyRight">
-            <p>© 2025 Parmar Latesh | Designed & Developed by Me 💼</p>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input
+              type="text"
+              name="Name"
+              placeholder="Your Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Enter Your Message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
         </div>
       </div>
-
-
-
-
-
-
+      <div class="copyRight">
+        <p>© 2025 Parmar Latesh | Designed & Developed by Me 💼</p>
+      </div>
+    </div>
 
     <script src="script.js"></script>
-    <script>
-      </script>
-</body>
+    <script></script>
+  </body>
 </html>
